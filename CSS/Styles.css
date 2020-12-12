@@ -1,40 +1,43 @@
-body{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+body {
   background-color: #99ccff;
+  font-size: 0;
 }
-.head1{
+
+.center {
+  width: 25%;
+  margin: auto;
+  min-width: 250px;
+}
+
+.head1 {
   font-family: 'Alfa Slab One', cursive ,sans-serif;
+  font-size: 28px;
+  text-align: center;
 }
+
 .header1{
   letter-spacing: 2px;
   font-family: 'Lato', sans-serif;
-  margin-top: -1%;
+  font-size: 24px;
+  text-align: center;
 }
-.price{
+.price {
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: -10px;
+  bottom: -10px;
   font-family: 'Alfa Slab One', cursive ,sans-serif;
   color: #99ccff;
-  font-size: 30px;
+  font-size: 24px;
   padding: 3px 15px;
   background-color: #ff4000;
   border-radius: 8px;
-  width: 120px;
-  height: 60px;
   transform: rotate(-25deg);
-  margin: 0% 0% -17% 10%;
-  text-align: center;
 }
-.bun{
+.bun {
   position: relative;
   border-radius: 60px 60px 10px 10px;
   height: 60px;
-  width: 280px;
   background-color: #ff9900;
-  box-sizing: border-box;
   margin: 4px;
   box-shadow: 0px -5px 2px #cc7a00 inset;
 }
@@ -42,9 +45,7 @@ body{
   position: relative;
   border-radius: 10px 10px 60px 60px;
   height: 60px;
-  width: 280px;
   background-color: #ff9900;
-  box-sizing: border-box;
   margin: 4px;
   box-shadow: 0px 5px 2px #cc7a00 inset;
 }
@@ -108,7 +109,6 @@ body{
   padding: 5px;
   margin: 2px;
   height: 5px;
-  width: 300px;
   background-color: green;
   box-shadow: 0px -5px 2px #006600 inset;
 }
@@ -117,7 +117,6 @@ body{
   padding: 5px;
   margin: 2px;
   height: 5px;
-  width: 300px;
   background-color: green;
   box-shadow: 0px 5px 2px #006600 inset;
 }
@@ -126,38 +125,35 @@ body{
   padding: 7px;
   margin: 2px;
   height: 3px;
-  width: 300px;
   background-color: #ffcc00;
   box-shadow: 0px -3px 2px #999966 inset;
 }
 .tomato1{
-  position: relative;
   border-radius: 5px;
   padding: 13px;
   margin: 2px;
-  width: 140px;
+  width: calc(50% - 4px);
   background-color: red;
   box-shadow: 0px -5px 2px #800000 inset;
-  right: 5%;
   box-sizing: border-box;
+  display: inline-block;
 }
 .tomato2{
-  position: absolute;
   border-radius: 5px;
   padding: 13px;
-  width: 140px;
+  margin: 2px;
+  width: calc(50% - 4px);
   background-color: red;
   box-shadow: 0px -5px 2px #800000 inset;
-  left: 50%;
-  bottom: 65%;
   box-sizing: border-box;
+  display: inline-block;
 }
+
 .meat{
   border-radius: 10px;
   padding: 10px;
   margin: 2px;
   height: 20px;
-  width: 300px;
   background-color: #663300;
   box-shadow: 0px -5px 5px #331a00 inset;
 }
